@@ -1,0 +1,21 @@
+{
+    "name": "epepee/flashmsg",    
+    "description": "Message controller for ANAX-MVC",
+    "keywords": ["FlashMsg", "Flashmessage"],
+    "homepage": "http://dbwebb.se",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peter Pettersson",
+            "email": "peterpettersson@live.com",
+            "homepage": "http://dbwebb.se",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "epepee\\": "src/" }
+    }
+}
